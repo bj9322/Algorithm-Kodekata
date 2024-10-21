@@ -70,3 +70,15 @@
 //     }
 //     return result; 
 // }
+
+// 10. 배열의 평균 값
+
+// const numbers = [1, 2, 10, 20, 5];
+
+// function solution(numbers) {
+//     let sum = 0;
+
+//     numbers.forEach(number => sum += number);
+
+//     return sum / numbers.length;
+// }
