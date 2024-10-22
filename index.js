@@ -82,3 +82,28 @@
 
 //     return sum / numbers.length;
 // }
+
+// 11. 짝수와 홀수
+
+// const num = 5;
+
+// function solution(num) {
+//     if(num % 2 === 0){
+//         return "Even";
+//     }
+//     else{
+//         return "Odd";
+//     }
+// }
+
+// 12. 평균 구하기
+
+// let arr = [1, 2, 5, 3];
+// let result = 0;
+
+// function solution(arr) {
+//     arr.forEach(arrNum => {
+//         result += arrNum;
+//     });
+//     return result / arr.length;
+// }
