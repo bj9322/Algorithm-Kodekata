@@ -107,3 +107,44 @@
 //     });
 //     return result / arr.length;
 // }
+
+// 13. 자릿수 더하기
+
+// function solution(n) {
+//     const digits = String(n).split('');
+    
+//     return digits.reduce((acc, digit) => acc + Number(digit), 0);
+// }
+
+// 14. 약수의 합
+
+// let n = 10;
+// let sum = 0;
+
+// function solution(n) {
+//     for(let i = 0; i <= n; i++){
+//         if(n % i === 0){
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(solution(n));
+
+// 15. 나머지가 1이 되는 수 찾기
+
+// function solution(n) {
+//     for (let x = 1; x < n; x++) {
+//         if (n % x === 1) {
+//             return x;
+//         }
+//     }
+// }
+
+// 16. x만큼 간격이 있는 n개의 숫자
+// let x = 2;
+// let n = 5;
+
+// function solution(x, n) {
+//     for()
+// }
