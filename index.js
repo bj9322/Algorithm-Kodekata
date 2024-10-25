@@ -142,9 +142,10 @@
 // }
 
 // 16. x만큼 간격이 있는 n개의 숫자
-// let x = 2;
-// let n = 5;
-
 // function solution(x, n) {
-//     for()
-// }
+//     const result = [];
+//     for (let i = 1; i <= n; i++) {
+//       result.push(x * i);
+//     }
+//     return result;
+//   }
