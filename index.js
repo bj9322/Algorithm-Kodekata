@@ -62,7 +62,7 @@
 // 9. 짝수의 합
 
 // function solution(n) {
-//     let result = 0; 
+//     let result = 0;
 //     for(let i = 1; i <= n; i++) {
 //         if(i % 2 === 0) { 
 //             result += i; 
@@ -149,3 +149,75 @@
 //     }
 //     return result;
 //   }
+
+// 17. 자연수 뒤집어 배열로 만들기
+
+// function solution(n) {
+//     return n
+//         .toString()     // 숫자를 문자열로 반환
+//         .split('')      // 문자열을 배열로 반환
+//         .reverse()      // 배열의 순서를 뒤집음
+//         .map(Number);   // 각 자리수를 숫자로 변환하여 최종 배열 반환
+// }
+
+// 18. 
+
+
+// 19. 정수 제곱근 판별
+
+// function solution(n) {
+//     const sqrt = Math.sqrt(n);
+//     if (Number.isInteger(sqrt)) {
+//         return Math.pow(sqrt + 1, 2);
+//     } else {
+//         return -1;
+//     }
+// }
+
+// 20. 정수 내림차순으로 배치하기
+
+// const n = 157687
+// function solution(n) {
+//     return parseInt.sort((a, b) => b - a);
+// }
+// console.log(solution(n));
+
+// 21. 하샤드 수
+
+// function solution(x) {
+//     const sumOfDigits = x
+//       .toString()
+//       .split('')
+//       .reduce((acc, digit) => acc + parseInt(digit), 0);
+    
+//     return x % sumOfDigits === 0;
+//   }
+
+// 22. 두 정수 사이의 합
+
+// function solution(a, b) {
+//     const min = Math.min(a, b);
+//     const max = Math.max(a, b);
+    
+//     let sum = 0;
+
+//     if(min === max){
+//         return min;
+//     }
+    
+//     for (let i = min; i <= max; i++) {
+//         sum += i;
+//     }
+    
+//     return sum;
+// }
+
+// reduce 연습
+
+// const number = [10, 5, 3, 2];
+
+// function difference() {
+//     return number.reduce((acc, value) => acc - value);
+// }
+
+// console.log(difference(number));
