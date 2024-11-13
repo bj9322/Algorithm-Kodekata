@@ -64,11 +64,11 @@
 // function solution(n) {
 //     let result = 0;
 //     for(let i = 1; i <= n; i++) {
-//         if(i % 2 === 0) { 
-//             result += i; 
+//         if(i % 2 === 0) {
+//             result += i;
 //         }
 //     }
-//     return result; 
+//     return result;
 // }
 
 // 10. 배열의 평균 값
@@ -112,7 +112,7 @@
 
 // function solution(n) {
 //     const digits = String(n).split('');
-    
+
 //     return digits.reduce((acc, digit) => acc + Number(digit), 0);
 // }
 
@@ -160,8 +160,7 @@
 //         .map(Number);   // 각 자리수를 숫자로 변환하여 최종 배열 반환
 // }
 
-// 18. 
-
+// 18.
 
 // 19. 정수 제곱근 판별
 
@@ -189,7 +188,7 @@
 //       .toString()
 //       .split('')
 //       .reduce((acc, digit) => acc + parseInt(digit), 0);
-    
+
 //     return x % sumOfDigits === 0;
 //   }
 
@@ -198,17 +197,17 @@
 // function solution(a, b) {
 //     const min = Math.min(a, b);
 //     const max = Math.max(a, b);
-    
+
 //     let sum = 0;
 
 //     if(min === max){
 //         return min;
 //     }
-    
+
 //     for (let i = min; i <= max; i++) {
 //         sum += i;
 //     }
-    
+
 //     return sum;
 // }
 
@@ -221,3 +220,36 @@
 // }
 
 // console.log(difference(number));
+
+// 23. 콜라츠 추측
+
+// function solution(num) {
+//     let count = 0; 
+
+//     if (num === 1) return 0;
+
+//     while (count < 500) {
+//         if (num % 2 === 0) {
+//             num /= 2;
+//         } else { 
+//             num = num * 3 + 1;
+//         }
+//         count++; 
+
+//         if (num === 1) {
+//             return count;
+//         }
+//     }
+
+//     return -1;
+// }
+
+// 24. 서울에서 김서방 찾기
+
+// // function solution(seoul) {
+//     for (i = 0; i < seoul.length; i++) {
+//         if (seoul[i] === "Kim") {
+//             return `김서방은 ${i}에 있다`;
+//         }
+//     }
+// }
